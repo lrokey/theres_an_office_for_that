@@ -23,12 +23,13 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/journal.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
     <!-- Add your site or application content here -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">There's An Office For That</a>
@@ -46,7 +47,6 @@
                 <script>
                     function change() {
                         console.log("inside change function");
-                        // var elem = document.getElementById("criteriaButton");
                         // create random random number between 1 and 4.
                         var num = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
                         console.log(num);
@@ -79,7 +79,7 @@
 
                     }
                 </script>
-                <button class="btn btn-outline-primary btn-lg" id="criteriaButton" onclick="change()" type="button">If you want to watch something that will make you feel…</button>
+                <button class="btn btn-outline-primary btn-lg" id="criteriaButton" onclick="change()" type="button" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">If you want to watch something that will make you feel…</button>
                 <select class="custom-select" id="special-select">
 
                     <option selected="">angry</option>
@@ -113,6 +113,12 @@
                     <option>vengeful</option>
 
                 </select>
+                <br>
+                <br>
+                <div class="alert alert-dismissible alert-light">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <strong>Heads up!</strong> You can click the button to change categories.
+                </div>
             </div>
             <p></p>
         </div>
