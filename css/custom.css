@@ -1,0 +1,16 @@
+#buttonDiv{
+	margin: auto;
+	text-align: center;
+}
+
+.userChoice{
+	text-align: center;
+}
+#special-select{
+	width: 250px;
+}
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+#episode p { display: inline }

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>There's An Office For That</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="site.webmanifest" rel="manifest">
+    <!-- jQuery library -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <!-- Latest compiled JavaScript -->
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/journal.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">There's An Office For That</a>
+        <div class="collapse navbar-collapse" id="navbarColor01"></div>
+    </nav>
+    <main class="container" role="main">
+        <div class="jumbotron">
+            <h1 class="display-3">Fact:</h1>
+            <p class="lead">There is an episode of the Office for every life situation. Feeling like you need to laugh or cry? There's an office for that. Are you really into bats or Ben Franklin? There's an office for that. Worried about your upcoming performance review? There's an office for that.</p>
+            <hr class="my-4">
+            <p><small>That's what she said.</small></p>
+            <br>
+            <p class="lead"></p>
+            <div class="userChoice">
+                <script>
+                    function change() {
+                        console.log("inside change function");
+                        // var elem = document.getElementById("criteriaButton");
+                        // create random random number between 1 and 4.
+                        var num = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+                        console.log(num);
+                        var vals = [];
+                        switch (num) {
+                            case 1:
+                                document.getElementById("criteriaButton").innerHTML = "If you want to watch something that will make you feel…";
+                                vals = categories.verbs.split(",");
+                                break;
+                            case 2:
+                                document.getElementById("criteriaButton").innerHTML = "I'm feeling…";
+                                vals = categories.adjectives.split(",");
+                                break;
+                            case 3:
+                                document.getElementById("criteriaButton").innerHTML = "I'm really into…";
+                                vals = categories.nouns.split(",");
+                                break;
+                            case 4:
+                                document.getElementById("criteriaButton").innerHTML = "Holiday time!";
+                                vals = categories.holidays.split(",");
+                                break;
+                        }
+
+                        // update dropdown menu
+                        var $secondChoice = $("#special-select");
+                        $secondChoice.empty();
+                        $.each(vals, function(index, value) {
+                            $secondChoice.append("<option>" + value + "</option>");
+                        });
+
+                    }
+                </script>
+                <button class="btn btn-outline-primary btn-lg" id="criteriaButton" onclick="change()" type="button">If you want to watch something that will make you feel…</button>
+                <select class="custom-select" id="special-select">
+
+                    <option selected="">angry</option>
+                    <option>bored</option>
+                    <option>brave</option>
+                    <option>competitive</option>
+                    <option>conspiratory</option>
+                    <option>creative</option>
+                    <option>creepy</option>
+                    <option>depressed</option>
+                    <option>entrepreneurial</option>
+                    <option>fiery</option>
+                    <option>feisty</option>
+                    <option>forgiving</option>
+                    <option>gossipy</option>
+                    <option>hungry</option>
+                    <option>jealous</option>
+                    <option>laugh</option>
+                    <option>loyal</option>
+                    <option>lucky</option>
+                    <option>naughty</option>
+                    <option>obnoxious</option>
+                    <option>overwhelmed</option>
+                    <option>proud</option>
+                    <option>racy</option>
+                    <option>romantic</option>
+                    <option>secretive</option>
+                    <option>shady</option>
+                    <option>sporty</option>
+                    <option>unorthodox</option>
+                    <option>vengeful</option>
+
+                </select>
+            </div>
+            <p></p>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">There's an Office For That</h3>
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        <h4>Watch</h4>
+                        <div class="episode">
+                            <span class="text-success" id="title0"></span>
+                            <span>Season <span id="seasonNum0"></span>, </span>
+                            <span>Episode <span id="epNum0"></span></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-dismiss="modal" type="button">Got it!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $('#buttonDiv').click(function() {
+                    var criteria = document.getElementById('special-select');
+                    var criteriaText = criteria.options[criteria.selectedIndex].innerHTML;
+                    var curatedEpisodes = curateOfficeEpisodes(criteriaText);
+                    shuffle(curatedEpisodes);
+                    // alert(printEpisodeInfo(curatedEpisodes.slice(0, numOfEpisodesToShowToUser)));
+                    var info = printEpisodeInfo(curatedEpisodes.slice(0, numOfEpisodesToShowToUser));
+                    console.log(curatedEpisodes[0].title);
+
+                    // Only show one episode.
+                    $('#myModal .modal-body #title0').empty();
+                    $('#myModal .modal-body #seasonNum0').empty();
+                    $('#myModal .modal-body #epNum0').empty();
+
+                    $('#myModal .modal-body #title0').append(curatedEpisodes[0].title);
+                    $('#myModal .modal-body #seasonNum0').append(curatedEpisodes[0].seasonNum);
+                    $('#myModal .modal-body #epNum0').append(curatedEpisodes[0].episodeNum);
+
+                });
+
+            });
+        </script>
+        <div id="buttonDiv">
+            <button class="btn btn-success" data-target="#myModal" data-toggle="modal" type="button">There's an Office for That?</button>
+        </div>
+    </main>
+    <!-- /.container -->
+    <script src="js/vendor/modernizr-3.5.0.min.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="js/plugins.js">
+    </script>
+    <script src="js/office_episodes.js">
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script async defer src="https://www.google-analytics.com/analytics.js">
+    </script>
+</body>
+
+</html>
