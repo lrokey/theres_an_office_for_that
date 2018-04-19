@@ -688,8 +688,8 @@ var testData = [{
 var categories = {
     "verbs": "agitated,cringe,cry,feisty,forgiving,hungry,jealous,laugh,proud,surprised,stressed",
     "adjectives": "angry,bored,brave,competitive,conspiratory,creative,creepy,depressed,entrepreneurial,fiery,feisty,forgiving,gossipy,hungry,jealous,loyal,lucky,naughty,obnoxious,overwhelmed,proud,racy,romantic,secretive,shady,sporty,unorthodox,vengeful",
-    "nouns": "Ben Franklin,cats,Chilis,disco,drama,driving,feminism,finer things,friendship,jeans,pasta,performance reviews,ping pong,PMS,pretzels,prison,rabies,running,Slumdog Millionaire,twins,vacation,vampires,volleyball, vacuums, babies, the mafia, Cookie Monster, Hilary Swank, Willy Wonka, Idris Elba",
-    "holidays": "birthday,Christmas,Diwali,Halloween,Thanksgiving,Valentines Day, St. Patricks Day"
+    "nouns": "babies,Ben Franklin,cats,Chilis,Cookie Monster,disco,drama,driving,feminism,finer things,friendship,Hilary Swank,Idris Elba,jeans,the mafia,pasta,performance reviews,ping pong,PMS,pretzels,prison,rabies,running,Slumdog Millionaire,twins,vacation,vampires,volleyball,vacuums,Willy Wonka",
+    "holidays": "birthday,Christmas,Diwali,Halloween,Thanksgiving,Valentines Day,St. Patrick's Day"
 };
 
 function Episode(title, seasonNum, episodeNum) {
