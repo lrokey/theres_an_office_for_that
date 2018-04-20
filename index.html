@@ -47,24 +47,20 @@
                 <script>
                     function change() {
                         console.log("inside change function");
-                        // create random random number between 1 and 4.
-                        var num = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+                        // create random random number between 1 and 3.
+                        var num = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
                         console.log(num);
                         var vals = [];
                         switch (num) {
                             case 1:
-                                document.getElementById("criteriaButton").innerHTML = "If you want to watch something that will make you feel…";
-                                vals = categories.verbs.split(",");
-                                break;
-                            case 2:
                                 document.getElementById("criteriaButton").innerHTML = "I'm feeling…";
                                 vals = categories.adjectives.split(",");
                                 break;
-                            case 3:
+                            case 2:
                                 document.getElementById("criteriaButton").innerHTML = "I'm really into…";
                                 vals = categories.nouns.split(",");
                                 break;
-                            case 4:
+                            case 3:
                                 document.getElementById("criteriaButton").innerHTML = "Holiday time!";
                                 vals = categories.holidays.split(",");
                                 break;
@@ -79,45 +75,22 @@
 
                     }
                 </script>
-                <button class="btn btn-outline-primary btn-lg" id="criteriaButton" onclick="change()" type="button" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">If you want to watch something that will make you feel…</button>
+                <button class="btn btn-outline-primary btn-lg" id="criteriaButton" onclick="change()" type="button" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Holiday Time!</button>
                 <select class="custom-select" id="special-select">
 
-                    <option selected="">angry</option>
-                    <option>bored</option>
-                    <option>brave</option>
-                    <option>competitive</option>
-                    <option>conspiratory</option>
-                    <option>creative</option>
-                    <option>creepy</option>
-                    <option>depressed</option>
-                    <option>entrepreneurial</option>
-                    <option>fiery</option>
-                    <option>feisty</option>
-                    <option>forgiving</option>
-                    <option>gossipy</option>
-                    <option>hungry</option>
-                    <option>jealous</option>
-                    <option>laugh</option>
-                    <option>loyal</option>
-                    <option>lucky</option>
-                    <option>naughty</option>
-                    <option>obnoxious</option>
-                    <option>overwhelmed</option>
-                    <option>proud</option>
-                    <option>racy</option>
-                    <option>romantic</option>
-                    <option>secretive</option>
-                    <option>shady</option>
-                    <option>sporty</option>
-                    <option>unorthodox</option>
-                    <option>vengeful</option>
-
+                    <option selected="">birthday</option>
+                    <option>Christmas</option>
+                    <option>Diwali</option>
+                    <option>Halloween</option>
+                    <option>Thanksgiving</option>
+                    <option>Valentine's Day</option>
+                    <option>St. Patrick's Day</option>
                 </select>
                 <br>
                 <br>
                 <div class="alert alert-dismissible alert-light">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Heads up!</strong> You can click the button to change categories.
+                    <strong>Pro Tip:</strong> You can click the button to change categories.
                 </div>
             </div>
             <p></p>
