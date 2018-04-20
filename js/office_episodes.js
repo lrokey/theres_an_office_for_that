@@ -3,331 +3,331 @@ var testData = [{
         "SeasonNum": 1,
         "EpNum": 1,
         "Title": "Pilot",
-        "Criteria": ["laugh", "cringe"]
+        "Criteria": ["like I need a laugh", "awkward"]
     },
     {
         "SeasonNum": 1,
         "EpNum": 2,
         "Title": "Diversity Day",
-        "Criteria": ["laugh", "cringe", "racy"]
+        "Criteria": ["like I need a laugh", "awkward", "racy"]
     },
     {
         "SeasonNum": 1,
         "EpNum": 3,
         "Title": "Health Care",
-        "Criteria": ["laugh", "cringe", "shady", "conspiratory"]
+        "Criteria": ["like I need a laugh", "awkward", "shady", "conspiratory"]
     },
     {
         "SeasonNum": 1,
         "EpNum": 4,
         "Title": "The Alliance",
-        "Criteria": ["laugh", "cringe", "loyal", "romantic"]
+        "Criteria": ["like I need a laugh", "awkward", "loyal", "romantic"]
     },
     {
         "SeasonNum": 1,
         "EpNum": 5,
         "Title": "Basketball",
-        "Criteria": ["laugh", "cringe", "sporty", "overwhelmed"]
+        "Criteria": ["like I need a laugh", "awkward", "sporty", "overwhelmed"]
     },
     {
         "SeasonNum": 1,
         "EpNum": 6,
         "Title": "Hot Girl",
-        "Criteria": ["laugh", "cringe", "jealous"]
+        "Criteria": ["like I need a laugh", "awkward", "jealous"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 1,
         "Title": "The Dundies",
-        "Criteria": ["laugh", "cringe", "proud", "Chilis"]
+        "Criteria": ["like I need a laugh", "awkward", "proud", "Chilis"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 2,
         "Title": "Sexual Harrassment",
-        "Criteria": ["laugh", "cringe", "gossipy", "angry"]
+        "Criteria": ["like I need a laugh", "awkward", "gossipy", "angry"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 3,
         "Title": "Office Olympics",
-        "Criteria": ["laugh", "cringe", "sporty", "bored", "proud"]
+        "Criteria": ["like I need a laugh", "awkward", "sporty", "bored", "proud"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 4,
         "Title": "The Fire",
-        "Criteria": ["laugh", "cringe", "entrepreneurial", "fiery", "hungry"]
+        "Criteria": ["like I need a laugh", "awkward", "entrepreneurial", "fiery", "hungry"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 5,
         "Title": "Halloween",
-        "Criteria": ["laugh", "cringe", "halloween", "fiery", "hungry"]
+        "Criteria": ["like I need a laugh", "awkward", "halloween", "fiery", "hungry"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 6,
         "Title": "The Fight",
-        "Criteria": ["laugh", "cringe", "agitated", "forgiving"]
+        "Criteria": ["like I need a laugh", "awkward", "agitated", "forgiving"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 7,
         "Title": "The Client",
-        "Criteria": ["laugh", "cringe", "creative", "feisty"]
+        "Criteria": ["like I need a laugh", "awkward", "creative", "feisty"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 8,
         "Title": "Performance Review",
-        "Criteria": ["laugh", "cringe", "performance reviews"]
+        "Criteria": ["like I need a laugh", "awkward", "performance reviews"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 9,
         "Title": "Email Surveillance",
-        "Criteria": ["laugh", "cringe", "creepy", "naughty"]
+        "Criteria": ["like I need a laugh", "awkward", "creepy", "naughty"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 10,
         "Title": "Christmas Party",
-        "Criteria": ["laugh", "cringe", "Christmas", "naughty"]
+        "Criteria": ["like I need a laugh", "awkward", "Christmas", "naughty"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 11,
         "Title": "Booze Cruise",
-        "Criteria": ["laugh", "cringe", "romantic", "cry"]
+        "Criteria": ["like I need a laugh", "awkward", "romantic", "sad"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 12,
         "Title": "The Injury",
-        "Criteria": ["laugh", "cringe"]
+        "Criteria": ["like I need a laugh", "awkward"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 13,
         "Title": "The Secret",
-        "Criteria": ["laugh", "cringe", "secretive"]
+        "Criteria": ["like I need a laugh", "awkward", "secretive"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 14,
         "Title": "The Carpet",
-        "Criteria": ["laugh", "cringe", "obnoxious"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 15,
         "Title": "Boys and Girls",
-        "Criteria": ["laugh", "cringe", "obnoxious", "feminism"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "feminism"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 16,
         "Title": "Boys and Girls",
-        "Criteria": ["laugh", "cringe", "Valentines Day"]
+        "Criteria": ["like I need a laugh", "awkward", "Valentine's Day"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 17,
         "Title": "Dwights Speech",
-        "Criteria": ["laugh", "cringe", "unorthodox"]
+        "Criteria": ["like I need a laugh", "awkward", "unorthodox"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 18,
         "Title": "Take Your Daughter to Work Day",
-        "Criteria": ["laugh", "cringe"]
+        "Criteria": ["like I need a laugh", "awkward"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 19,
         "Title": "Michael's Birthday",
-        "Criteria": ["laugh", "cringe", "birthday"]
+        "Criteria": ["like I need a laugh", "awkward", "birthday"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 20,
         "Title": "Drug Testing",
-        "Criteria": ["laugh", "cringe"]
+        "Criteria": ["like I need a laugh", "awkward"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 21,
         "Title": "Conflict Resolution",
-        "Criteria": ["laugh", "cringe", "fiesty"]
+        "Criteria": ["like I need a laugh", "awkward", "fiesty"]
     },
     {
         "SeasonNum": 2,
         "EpNum": 22,
         "Title": "Casino Night",
-        "Criteria": ["laugh", "cringe", "drama", "romantic"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "romantic"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 1,
         "Title": "Gay Witch Hunt",
-        "Criteria": ["laugh", "cringe", "obnoxious", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "drama"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 2,
         "Title": "The Convention",
-        "Criteria": ["laugh", "cringe", "obnoxious", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "drama"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 4,
         "Title": "The Coup",
-        "Criteria": ["laugh", "cringe", "obnoxious", "drama", "conspiratory", "fiesty"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "drama", "conspiratory", "fiesty"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 5,
         "Title": "Grief Counseling",
-        "Criteria": ["cry", "cringe", "obnoxious"]
+        "Criteria": ["sad", "awkward", "obnoxious"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 6,
         "Title": "Diwali",
-        "Criteria": ["laugh", "cringe", "drama", "surprised", "Halloween", "Diwali"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "like I need a surprise", "Halloween", "Diwali"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 7,
         "Title": "Branch Closing",
-        "Criteria": ["laugh", "cringe", "naughty", "surprised"]
+        "Criteria": ["like I need a laugh", "awkward", "naughty", "like I need a surprise"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 8,
         "Title": "The Merger",
-        "Criteria": ["laugh", "cringe", "obnoxious", "surprised"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "like I need a surprise"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 9,
         "Title": "The Convict",
-        "Criteria": ["laugh", "cringe", "prison"]
+        "Criteria": ["like I need a laugh", "awkward", "prison"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 10,
         "Title": "A Benihana Christmas",
-        "Criteria": ["laugh", "cringe", "Christmas", "twins"]
+        "Criteria": ["like I need a laugh", "awkward", "Christmas", "twins"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 12,
         "Title": "Back From Vacation",
-        "Criteria": ["laugh", "cringe", "vacation", "PMS"]
+        "Criteria": ["like I need a laugh", "awkward", "vacation", "PMS"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 13,
         "Title": "Traveling Salesmen",
-        "Criteria": ["laugh", "cringe", "friendship", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "friendship", "drama"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 14,
         "Title": "The Return",
-        "Criteria": ["laugh", "cringe", "angry", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "angry", "drama"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 15,
         "Title": "Ben Franklin",
-        "Criteria": ["laugh", "cringe", "naughty", "Ben Franklin"]
+        "Criteria": ["like I need a laugh", "awkward", "naughty", "Ben Franklin"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 16,
         "Title": "Phyllis' Wedding",
-        "Criteria": ["laugh", "cringe", "obnoxious", "romantic", "jealous"]
+        "Criteria": ["like I need a laugh", "awkward", "obnoxious", "romantic", "jealous"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 17,
         "Title": "Business School",
-        "Criteria": ["laugh", "cringe", "vengeful", "vampires", "jealous"]
+        "Criteria": ["like I need a laugh", "awkward", "vengeful", "vampires", "jealous"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 18,
         "Title": "Cocktails",
-        "Criteria": ["laugh", "cringe", "angry"]
+        "Criteria": ["like I need a laugh", "awkward", "angry"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 19,
         "Title": "The Negotiation",
-        "Criteria": ["laugh", "cringe", "secretive", "vengeful", "fiesty"]
+        "Criteria": ["like I need a laugh", "awkward", "secretive", "vengeful", "fiesty"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 20,
         "Title": "Safety Training",
-        "Criteria": ["laugh", "cringe", "depressed", "lucky"]
+        "Criteria": ["like I need a laugh", "awkward", "depressed", "lucky"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 21,
         "Title": "Product Recall",
-        "Criteria": ["laugh", "cringe", "twins", "fiesty"]
+        "Criteria": ["like I need a laugh", "awkward", "twins", "fiesty"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 22,
         "Title": "Womens Appreciation",
-        "Criteria": ["laugh", "cringe", "feminism", "fiesty"]
+        "Criteria": ["like I need a laugh", "awkward", "feminism", "fiesty"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 23,
         "Title": "Beach Games",
-        "Criteria": ["laugh", "cringe", "brave", "competitive"]
+        "Criteria": ["like I need a laugh", "awkward", "brave", "competitive"]
     },
     {
         "SeasonNum": 3,
         "EpNum": 24,
         "Title": "The Job",
-        "Criteria": ["laugh", "cringe", "brave", "competitive"]
+        "Criteria": ["like I need a laugh", "awkward", "brave", "competitive"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 1,
         "Title": "Fun Run",
-        "Criteria": ["laugh", "cringe", "rabies", "cats", "running", "pasta", "romantic"]
+        "Criteria": ["like I need a laugh", "awkward", "rabies", "cats", "running", "pasta", "romantic"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 3,
         "Title": "Dunder Mifflin Infinity",
-        "Criteria": ["Laugh", "Romantic", "Driving", "Running", "Pasta", "Romantic"]
+        "Criteria": ["like I need a laugh", "Romantic", "Driving", "Running", "Pasta", "Romantic"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 5,
         "Title": "Launch Party",
-        "Criteria": ["laugh", "cringe", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "drama"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 7,
         "Title": "Money",
-        "Criteria": ["laugh", "cringe", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "drama"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 9,
         "Title": "Local Ad",
-        "Criteria": ["laugh", "cringe", "drama"]
+        "Criteria": ["like I need a laugh", "awkward", "drama"]
     },
     {
         "SeasonNum": 4,
@@ -339,223 +339,223 @@ var testData = [{
         "SeasonNum": 4,
         "EpNum": 11,
         "Title": "Survivor Man",
-        "Criteria": ["laugh", "cringe", "drama", "birthday"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "birthday"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 12,
         "Title": "The Deposition",
-        "Criteria": ["laugh", "cringe", "drama", "vengeful", "ping pong"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "vengeful", "ping pong"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 13,
         "Title": "Dinner Party",
-        "Criteria": ["laugh", "cringe", "drama", "hungry", "obnoxious", "unorthodox"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "hungry", "obnoxious", "unorthodox"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 14,
         "Title": "Chair Model",
-        "Criteria": ["laugh", "cringe", "drama", "obnoxious", "unorthodox"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "obnoxious", "unorthodox"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 15,
         "Title": "Night Out",
-        "Criteria": ["laugh", "cringe", "drama", "fiesty", "unorthodox"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "fiesty", "unorthodox"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 16,
         "Title": "Did I Stutter",
-        "Criteria": ["laugh", "cringe", "drama", "obnoxious"]
+        "Criteria": ["like I need a laugh", "awkward", "drama", "obnoxious"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 17,
         "Title": "Job Fair",
-        "Criteria": ["performance reviews", "cringe", "drama", "brave", "romantic"]
+        "Criteria": ["performance reviews", "awkward", "drama", "brave", "romantic"]
     },
     {
         "SeasonNum": 4,
         "EpNum": 18,
         "Title": "Goodbye, Toby",
-        "Criteria": ["competitive", "cringe", "drama", "entrepreneurial", "romantic"]
+        "Criteria": ["competitive", "awkward", "drama", "entrepreneurial", "romantic"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 1,
         "Title": "Weight Loss",
-        "Criteria": ["competitive", "cringe", "drama", "romantic"]
+        "Criteria": ["competitive", "awkward", "drama", "romantic"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 3,
         "Title": "Business Ethics",
-        "Criteria": ["cringe", "drama"]
+        "Criteria": ["awkward", "drama"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 4,
         "Title": "Baby Shower",
-        "Criteria": ["cringe", "drama", "jealous"]
+        "Criteria": ["awkward", "drama", "jealous"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 5,
         "Title": "Crime Aid",
-        "Criteria": ["cringe", "drama", "fiesty", "naughty"]
+        "Criteria": ["awkward", "drama", "fiesty", "naughty"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 6,
         "Title": "Employee Transfer",
-        "Criteria": ["cringe", "drama", "depressed", "Halloween"]
+        "Criteria": ["awkward", "drama", "depressed", "Halloween"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 7,
         "Title": "Customer Survey",
-        "Criteria": ["cringe", "drama", "performance reviews", "secretive"]
+        "Criteria": ["awkward", "drama", "performance reviews", "secretive"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 8,
         "Title": " Business Trip",
-        "Criteria": ["cringe", "drama", "fiesty"]
+        "Criteria": ["awkward", "drama", "fiesty"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 9,
         "Title": "Frame Toby",
-        "Criteria": ["cringe", "drama", "vengeful", "surprised"]
+        "Criteria": ["awkward", "drama", "vengeful", "like I need a surprise"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 10,
         "Title": "The Surplus",
-        "Criteria": ["cringe", "drama", "unorthodox", "secretive"]
+        "Criteria": ["awkward", "drama", "unorthodox", "secretive"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 11,
         "Title": "Moroccan Christmas",
-        "Criteria": ["cringe", "drama", "Christmas", "fiery", "unorthodox"]
+        "Criteria": ["awkward", "drama", "Christmas", "fiery", "unorthodox"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 12,
         "Title": "The Duel",
-        "Criteria": ["cringe", "drama", "jealousd"]
+        "Criteria": ["awkward", "drama", "jealousd"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 13,
         "Title": "Prince Family Paper",
-        "Criteria": ["cringe", "drama", "competitive", "Hilary Swank"]
+        "Criteria": ["awkward", "drama", "competitive", "Hilary Swank"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 14,
         "Title": "Stress Relief",
-        "Criteria": ["cringe", "drama", "stressed", "depressed"]
+        "Criteria": ["awkward", "drama", "stressed", "depressed"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 16,
         "Title": "Lecture Circuit",
-        "Criteria": ["cringe", "drama", "birthday"]
+        "Criteria": ["awkward", "drama", "birthday"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 18,
         "Title": "Blood Drive",
-        "Criteria": ["cringe", "drama", "depressed", "Valentines Day", "fiesty", "romantic"]
+        "Criteria": ["awkward", "drama", "depressed", "Valentine's Day", "fiesty", "romantic"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 19,
         "Title": "Golden Ticket",
-        "Criteria": ["cringe", "drama", "Willy Wonka"]
+        "Criteria": ["awkward", "drama", "Willy Wonka"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 20,
         "Title": "New Boss",
-        "Criteria": ["cringe", "drama", "Idris Elba"]
+        "Criteria": ["awkward", "drama", "Idris Elba"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 21,
         "Title": "Two Weeks",
-        "Criteria": ["cringe", "drama", "Idris Elba", "entrepreneurial"]
+        "Criteria": ["awkward", "drama", "Idris Elba", "entrepreneurial"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 22,
         "Title": "Dream Team",
-        "Criteria": ["cringe", "drama", "Idris Elba", "entrepreneurial", "competitive"]
+        "Criteria": ["awkward", "drama", "Idris Elba", "entrepreneurial", "competitive"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 22,
         "Title": "Dream Team",
-        "Criteria": ["cringe", "drama", "Idris Elba", "entrepreneurial", "competitive"]
+        "Criteria": ["awkward", "drama", "Idris Elba", "entrepreneurial", "competitive"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 23,
         "Title": "Michael Scott Paper Company",
-        "Criteria": ["cringe", "drama", "entrepreneurial", "Idris Elba", "competitive", "jealous"]
+        "Criteria": ["awkward", "drama", "entrepreneurial", "Idris Elba", "competitive", "jealous"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 24,
         "Title": "Heavy Competition",
-        "Criteria": ["cringe", "drama", "entrepreneurial", "Idris Elba", "competitive"]
+        "Criteria": ["awkward", "drama", "entrepreneurial", "Idris Elba", "competitive"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 25,
         "Title": "Broke",
-        "Criteria": ["cringe", "drama", "Idris Elba", "brave"]
+        "Criteria": ["awkward", "drama", "Idris Elba", "brave"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 26,
         "Title": "Casual Friday",
-        "Criteria": ["cringe", "drama", "jeans"]
+        "Criteria": ["awkward", "drama", "jeans"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 27,
         "Title": "Cafe Disco",
-        "Criteria": ["cringe", "drama", "disco"]
+        "Criteria": ["awkward", "drama", "disco"]
     },
     {
         "SeasonNum": 5,
         "EpNum": 28,
         "Title": "Company Picnic",
-        "Criteria": ["cringe", "drama", "Idris Elba", "Slumdog Millionaire", "volleyball"]
+        "Criteria": ["awkward", "drama", "Idris Elba", "Slumdog Millionaire", "volleyball"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 1,
         "Title": "Gossip",
-        "Criteria": ["cringe", "drama", "jealous", "gossipy", "obnoxious", "secretive"]
+        "Criteria": ["awkward", "drama", "jealous", "gossipy", "obnoxious", "secretive"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 2,
         "Title": "The Meeting",
-        "Criteria": ["cringe", "drama", "jealous", "obnoxious", "secretive"]
+        "Criteria": ["awkward", "drama", "jealous", "obnoxious", "secretive"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 3,
         "Title": "The Promotion",
-        "Criteria": ["cringe", "drama", "jealous", "obnoxious", "unorthodox", "overwhelmed"]
+        "Criteria": ["awkward", "drama", "jealous", "obnoxious", "unorthodox", "overwhelmed"]
     },
     {
         "SeasonNum": 6,
@@ -567,129 +567,128 @@ var testData = [{
         "SeasonNum": 6,
         "EpNum": 6,
         "Title": "Mafia",
-        "Criteria": ["cringe", "drama", "the mafia", "obnoxious"]
+        "Criteria": ["awkward", "drama", "the mafia", "obnoxious"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 7,
         "Title": "The Lover",
-        "Criteria": ["cringe", "drama", "surprised", "obnoxious", "unorthodox", "jealous"]
+        "Criteria": ["awkward", "drama", "like I need a surprise", "obnoxious", "unorthodox", "jealous"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 8,
         "Title": "Koi Pond",
-        "Criteria": ["cringe", "drama", "fiesty", "obnoxious", "unorthodox"]
+        "Criteria": ["awkward", "drama", "fiesty", "obnoxious", "unorthodox"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 9,
         "Title": "Double Date",
-        "Criteria": ["cringe", "drama", "conspiratory", "obnoxious", "unorthodox"]
+        "Criteria": ["awkward", "drama", "conspiratory", "obnoxious", "unorthodox"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 10,
         "Title": "Murder",
-        "Criteria": ["cringe", "drama", "naughty", "obnoxious", "unorthodox"]
+        "Criteria": ["awkward", "drama", "naughty", "obnoxious", "unorthodox"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 11,
         "Title": "Shareholder Meeting",
-        "Criteria": ["cringe", "drama", "naughty", "obnoxious", "stressed", "overwhelmed"]
+        "Criteria": ["awkward", "drama", "naughty", "obnoxious", "stressed", "overwhelmed"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 12,
         "Title": "Scott's Tots",
-        "Criteria": ["cringe", "drama", "naughty", "obnoxious", "overwhelmed", "unorthodox"]
+        "Criteria": ["awkward", "drama", "naughty", "obnoxious", "overwhelmed", "unorthodox"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 13,
         "Title": "Secret Sanata",
-        "Criteria": ["cringe", "drama", "Christmas", "obnoxious"]
+        "Criteria": ["awkward", "drama", "Christmas", "obnoxious"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 14,
         "Title": "The Banker",
-        "Criteria": ["cringe", "drama", "loyal", "forgiving"]
+        "Criteria": ["awkward", "drama", "loyal", "forgiving"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 15,
         "Title": "Sabre",
-        "Criteria": ["cringe", "drama", "obnoxious", "vacuums"]
+        "Criteria": ["awkward", "drama", "obnoxious", "vacuums"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 16,
         "Title": "The Manager and the Salesman",
-        "Criteria": ["cringe", "drama", "obnoxious", "Valentines Day"]
+        "Criteria": ["awkward", "drama", "obnoxious", "Valentine's Day"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 17,
         "Title": "The Delivery",
-        "Criteria": ["cringe", "drama", "babies"]
+        "Criteria": ["awkward", "drama", "babies"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 19,
         "Title": "St. Patrick's Day",
-        "Criteria": ["cringe", "drama", "St. Patrick's Day"]
+        "Criteria": ["awkward", "drama", "St. Patrick's Day"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 20,
         "Title": "New Leads",
-        "Criteria": ["cringe", "drama", "romantic", "feisty"]
+        "Criteria": ["awkward", "drama", "romantic", "feisty"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 21,
         "Title": "Happy Hour",
-        "Criteria": ["cringe", "drama", "romantic", "feisty", "jealous", "secretive"]
+        "Criteria": ["awkward", "drama", "romantic", "feisty", "jealous", "secretive"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 22,
         "Title": "Secretary's Day",
-        "Criteria": ["cringe", "drama", "Cookie Monster", "jealous"]
+        "Criteria": ["awkward", "drama", "Cookie Monster", "jealous"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 23,
         "Title": "Body Language",
-        "Criteria": ["cringe", "drama", "fiesty", "unorthodox"]
+        "Criteria": ["awkward", "drama", "fiesty", "unorthodox"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 24,
         "Title": "The Cover Up",
-        "Criteria": ["cringe", "drama", "conspiratory", "unorthodox", "secretive"]
+        "Criteria": ["awkward", "drama", "conspiratory", "unorthodox", "secretive"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 25,
         "Title": "The Chump",
-        "Criteria": ["cringe", "drama", "unorthodox", "secretive", "shady"]
+        "Criteria": ["awkward", "drama", "unorthodox", "secretive", "shady"]
     },
     {
         "SeasonNum": 6,
         "EpNum": 25,
         "Title": "Whistleblower",
-        "Criteria": ["cringe", "drama", "stressed", "secretive", "vengeful", "brave", "forgiving"]
+        "Criteria": ["awkward", "drama", "stressed", "secretive", "vengeful", "brave", "forgiving"]
     }
 ];
 
 var categories = {
-    "verbs": "agitated,cringe,cry,feisty,forgiving,hungry,jealous,laugh,proud,surprised,stressed",
-    "adjectives": "angry,bored,brave,competitive,conspiratory,creative,creepy,depressed,entrepreneurial,fiery,feisty,forgiving,gossipy,hungry,jealous,loyal,lucky,naughty,obnoxious,overwhelmed,proud,racy,romantic,secretive,shady,sporty,unorthodox,vengeful",
+    "adjectives": "agitated,angry,awkward,bored,brave,competitive,conspiratory,creative,creepy,depressed,entrepreneurial,fiery,feisty,forgiving,gossipy,hungry,jealous,like I need a laugh,loyal,lucky,naughty,obnoxious,overwhelmed,proud,racy,romantic,sad,secretive,shady,sporty,stressed,like I need a surprise,unorthodox,vengeful",
     "nouns": "babies,Ben Franklin,cats,Chilis,Cookie Monster,disco,drama,driving,feminism,finer things,friendship,Hilary Swank,Idris Elba,jeans,the mafia,pasta,performance reviews,ping pong,PMS,pretzels,prison,rabies,running,Slumdog Millionaire,twins,vacation,vampires,volleyball,vacuums,Willy Wonka",
-    "holidays": "birthday,Christmas,Diwali,Halloween,Thanksgiving,Valentines Day,St. Patrick's Day"
+    "holidays": "birthday,Christmas,Diwali,Halloween,Thanksgiving,Valentine's Day,St. Patrick's Day"
 };
 
 function Episode(title, seasonNum, episodeNum) {
